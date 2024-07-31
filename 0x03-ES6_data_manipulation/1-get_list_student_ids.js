@@ -3,7 +3,7 @@ const getListStudentIds = (listStudents) => {
   if (!(listStudents instanceof Array)) {
     return listStudentIds;
   }
-  listStudentIds = listStudents.map(student => student.id);
+  listStudentIds = listStudents.map((student) => student.id);
   return listStudentIds;
 };
 
